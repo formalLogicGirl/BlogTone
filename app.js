@@ -22,9 +22,10 @@ var https = require('https');
 
 var bloggerConfig = config.blogger;
 var host = bloggerConfig.host;
-var blogIdReadFrom = bloggerConfig.blog_id;
+var blogIdReadFrom = bloggerConfig.blog_id_read_from;
 var postId = bloggerConfig.post_id;
 var apiKey = bloggerConfig.api_key;
+var blogIdWriteTo = bloggerConfig.blog_id_write_to;
 var accessToken = bloggerConfig.access_token;
 var fields = '&fields=url,title,content,labels';
 var path = '/blogger/v3/blogs/' + blogIdReadFrom + '/posts/' + postId + '?key=' + apiKey;
