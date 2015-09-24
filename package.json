@@ -1,0 +1,23 @@
+{
+  "name": "BlogTone",
+  "version": "0.1.1",
+  "description": "A nodejs app using Watson Tone Analyzer v1 and Google Blogger v3 API",
+  "dependencies": {
+    "watson-developer-cloud": "~0.9.23"
+  },
+  "engines": {
+    "node": ">=0.10.38"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/formalLogicGirl/BlogTone.git"
+  },
+  "author": "Swaha Miller",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/formalLogicGirl/BlogTone/issues"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
